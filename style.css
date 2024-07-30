@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.botton{
+    display: flex;
+}
+
+.botton a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+
+    padding: 10px 40px;
+
+    border-radius: 25px;
+    background-color: #A22223;
+}
+
+.header{
+    background-image: url(./assets/1160.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #cdcdcd67;
+}
+
+.nav-bar .logo img{
+    height: 7vh;
+}
+
+.nav-list{
+    display: flex;
+    gap: 30px;
+    font-size: 2vh;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-family: "Orbitron", sans-serif;
+}
+
+.in-header{
+    display: flex;
+    padding: 50px 150px;
+}
+
+.txt-header{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+
+    font-size: 4vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.txt-header strong{
+    color: #A22223;
+}
+
+.txt-header img{
+    display: flex;
+    width: 48vh;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    padding: 190px 150px;
+}
+
+.img-about img{
+    height: 55vh;
+}
+
+.txt-about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    width: 450px;
+    font-family: "Poppins", sans-serif;
+}
+
+.txt-about h1{
+    font-size: 6vh;
+    font-weight: 600;
+}
+
+.txt-about p{
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+.txt-about strong{
+    color: #A22223;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 150px;
+}
+
+.car{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.txt-car{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.txt-car h2{
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.txt-car p{
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+.car img{
+    height: 50vh;
+    transform: scaleX(-1);
+}
+
+.car-img:nth-child(2) {
+    transform: scaleX(-1);
+}
+
+.contact{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 120px;
+
+    background-image: url(./assets/artwork.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.in-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 700px;
+}
+
+.txt-contact{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    line-height: 35px;
+}
+
+.txt-contact h1{
+    font-size: 5vh;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.txt-contact h2{
+    font-size: 4vh;
+}
+
+.txt-contact strong{
+    color: #E0BD49;
+}
+
+.card-contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 20px;
+
+    height: 350px;
+    width: 550px;
+    background-color: #d9d9d9a5;
+    border-radius: 20px;
+    box-shadow:  6px 6px 12px #a1a1a17c;
+}
+
+.card-contact input{
+    display: flex;
+    padding: 20px;
+    width: 500px;
+
+    background-color: black;
+    border-radius: 20px;
+
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.card-contact textarea{
+    display: flex;
+    padding: 20px;
+    width: 500px;
+
+    background-color: black;
+    border-radius: 20px;
+
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 1.5vh;
+}
+
+.card-contact button{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+
+    background-color: black;
+    border-radius: 20px;
+
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 2vh;
+}
+
+.card-contact button:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    padding: 40px 50px;
+
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.8vh;
+}
+
+.logo-txt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+}
+
+.links-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links-txt .links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.directs{
+    text-align: center;
+}
+
+.footer img{
+    height: 7vh;
+}
+
