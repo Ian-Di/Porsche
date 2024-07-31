@@ -270,7 +270,7 @@ html{
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 400px;
+    width: 300px;
 }
 
 .links-txt{
@@ -340,9 +340,17 @@ html{
     .txt-about{
         height: 400px;
         width: 350px;
-        border: 2px solid;
     }
     
+    .txt-about h1{
+        font-size: 5vh;
+    }
+
+    .txt-about p{
+        font-size: 2.2vh;
+        font-weight: 500;
+    }
+
     .new{
         padding: 50px 20px;
     }
@@ -374,7 +382,7 @@ html{
         justify-content: center;
         align-items: center;
         padding-right: 0px;
-        padding: 20px;
+        padding: 0px;
     
         background-image: url(./assets/artwork.png);
         background-position: center;
@@ -388,9 +396,21 @@ html{
         flex-direction: column;
         align-items: center;
         gap: 20px;
-        width: 370px;
+        width: 320px;
+    }
+
+    .txt-contact h1{
+        font-size: 4vh;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 30px;
     }
     
+    .txt-contact h2{
+        font-size: 3vh;
+        line-height: 20px;
+    }
+
     .card-contact form{
         padding: 20px 40px;
     
