@@ -367,7 +367,7 @@ html{
     }
 
     .car img{
-        height: 28vh;
+        height: 30vh;
         transform: scaleX(-1);
     }
     
@@ -378,44 +378,29 @@ html{
     }
     
     .contact{
-        display: flex;
         justify-content: center;
-        align-items: center;
         padding-right: 0px;
-        padding: 0px;
-    
-        background-image: url(./assets/artwork.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
         height: 600px;
     }
     
     .in-contact{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        width: 320px;
+        width: 280px;
     }
-
+    
     .txt-contact h1{
         font-size: 4vh;
-        font-style: italic;
-        font-weight: 800;
         line-height: 30px;
     }
     
     .txt-contact h2{
-        font-size: 3vh;
+        font-size: 3.5vh;
         line-height: 20px;
     }
-
-    .card-contact form{
-        padding: 20px 40px;
     
-        height: 350px;
-        width: 300px;
+    .card-contact form{
+        padding: 40px 30px;
+        width: 280px;
     }
     
     .card-contact input{
@@ -424,7 +409,7 @@ html{
     
     .card-contact textarea{
         width: 270px;
-    }
+    } 
     
     .footer{
         grid-template-columns: repeat(1,1fr);
