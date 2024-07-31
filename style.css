@@ -323,7 +323,8 @@ html{
     }
     
     .txt-header{
-        width: 350px;
+        width: 320px;
+        font-size: 3.5vh;
     }
     
     .about{
@@ -347,6 +348,8 @@ html{
     }
     
     .car{
+        display: flex;
+        flex-direction: column;
         grid-template-columns: repeat(1,1fr);
     }
     
