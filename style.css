@@ -76,7 +76,7 @@ html{
 
 .txt-header img{
     display: flex;
-    width: 48vh;
+    width: 30vh;
 }
 
 .about{
@@ -305,7 +305,7 @@ html{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 700px;
+        height: 600px;
     }
     
     .nav-bar .logo img{
@@ -316,14 +316,13 @@ html{
         display: none;
     }
     
-    
     .in-header{
         display: flex;
         padding: 50px 20px;
     }
     
     .txt-header{
-        width: 320px;
+        width: 350px;
         font-size: 3.5vh;
     }
     
@@ -331,7 +330,7 @@ html{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
-        padding: 190px 20px;
+        padding: 50px 20px;
     }
     
     .img-about img{
@@ -339,8 +338,9 @@ html{
     }
     
     .txt-about{
-        height: 300px;
+        height: 400px;
         width: 350px;
+        border: 2px solid;
     }
     
     .new{
@@ -353,6 +353,11 @@ html{
         grid-template-columns: repeat(1,1fr);
     }
     
+    .txt-car p{
+        font-size: 2vh;
+        font-weight: 500;
+    }
+
     .car img{
         height: 30vh;
         transform: scaleX(-1);
@@ -427,6 +432,6 @@ html{
     }
     
     .footer img{
-        height: 6vh;
+        height: 7vh;
     }   
 }
