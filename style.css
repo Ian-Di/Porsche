@@ -367,7 +367,7 @@ html{
     }
 
     .car img{
-        height: 30vh;
+        height: 28vh;
         transform: scaleX(-1);
     }
     
@@ -389,12 +389,12 @@ html{
     }
     
     .txt-contact h1{
-        font-size: 4vh;
+        font-size: 3.8vh;
         line-height: 30px;
     }
     
     .txt-contact h2{
-        font-size: 3.5vh;
+        font-size: 3.0vh;
         line-height: 20px;
     }
     
